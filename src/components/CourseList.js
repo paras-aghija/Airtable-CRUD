@@ -3,7 +3,7 @@ import Course from './Course';
 
 export default function CourseList({ courses, refreshCourses }) {
     return (
-        <div>
+        <div className="mb-5">
             <h2 className="mt-5 mb-3">Backlog</h2>
             <div className="list-group">
                 {courses
